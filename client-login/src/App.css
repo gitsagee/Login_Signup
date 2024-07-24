@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+  
+  }
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  form {
+    max-width: 100%;
+    width: 170px; 
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    box-sizing: border-box;
+  }
+  
+  form div {
+    margin-bottom: 1.5px; 
+  }
+  
+  label {
+    font-family: 'Arial', sans-serif; 
+    display: block;
+    font-weight: bold;
+    font-size: 5.8px;
+  }
+  input {
+    width: 100%;
+    padding: 3px;
+    border: 0.2px solid #ccc;
+    border-radius: 4px;
+    font-size: 4.8px;
+    box-sizing: border-box;
+    margin-bottom: 2.5px;
+}
+input:focus {
+    outline: none; 
+    border: 0.2px solid #ccc;
+  }
+  button {
+    width: 100%;
+    padding: 3.5px; 
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 4px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 6.5px; 
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+.toast {
+    font-size: 8px;
+    padding: 2.5px;
+  }
+  
+  .toast-success {
+    background-color: #28a745; 
+    color: white; 
+  }
+  
+  .toast-error {
+    background-color: #dc3545;
+    color: white; 
+  }
+  
+
+  .Toastify__toast {
+    font-size: 8px;
+    padding: 2px;
+    border-radius: 6px; 
+  }
+  
+  .Toastify__close-button {
+    font-size: 4.5px; 
+    width: 6px;
+    height: 6px; 
+    padding: 0;
+
+  }
+  .Toastify__toast-container {
+    font-size: 8px; 
+    padding: 0; 
+    width: 6px;
+    height: 6px; 
+  }
+  
