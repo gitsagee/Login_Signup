@@ -17,7 +17,7 @@ const Login = () => {
       return handleError("Both Username and Password are required");
     }
     try {
-      const response = await axios.post(process.env.SERVER_LOGIN, {
+      const response = await axios.post("https://login-signup-oo8j.onrender.com/login", {
         username,
         password,
       });

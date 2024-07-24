@@ -29,7 +29,7 @@ const Home = () => {
 
     const fetchProducts = async () => {
       try {
-        const response = await axios.get(process.env.PRODUCT_API, {
+        const response = await axios.get('https://fakestoreapi.com/products', {
           headers: { 'Authorization': `Bearer ${token}` }
         });
         setProducts(response.data);

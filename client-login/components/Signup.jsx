@@ -31,7 +31,7 @@ const Signup = () => {
     }
 
     try {
-      const response = await axios.post(process.env.SERVER_SIGNUP, { username, password, confirm_password, gender, email });
+      const response = await axios.post('https://login-signup-oo8j.onrender.com/signup', { username, password, confirm_password, gender, email });
       console.log(response.data);
       if (response.status === 201) {
         handleSuccess("Account established Successfully  ")
